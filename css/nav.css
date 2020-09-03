@@ -1,0 +1,72 @@
+nav {
+	width: 1024px;
+	margin: 0 auto;
+	height: 70px;
+}
+
+#logo img {
+	height: 70px;
+}
+
+.navmemulist {
+	float: right;
+}
+
+.navmemuitem {
+	width: 120px;
+	list-style: none;
+	display: inline-block;
+	padding: 0 30px 0 30px;
+}
+
+.navmemuitem a {
+	line-height: 70px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #fafafa;
+}
+
+.memubox {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	nav {
+		width: 90%;
+		height: 50px;
+	}
+
+	#logo {
+		float: none;
+	}
+
+	#logo img {
+		height: 50px;
+	}
+
+	.navmemulist {
+		display: none;
+	}
+
+	.memubox {
+		float: right;
+		width: 40px;
+		height: 40px;
+		margin-right: 5%;
+		border: 1px solid #fafafa;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.boxbar {
+		display: block;
+		width: 25px;
+		height: 2px;
+		margin: 5px auto;
+		background-color: #fafafa;
+	}
+
+	.boxbar:first-child {
+		margin-top: 10px;
+	}
+}

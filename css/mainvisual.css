@@ -1,0 +1,36 @@
+#mainvisual {
+	height: 650px;
+	background-image: url('../img/mv.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.mainvisualtext {
+	padding-top: 200px;
+	text-align: center;
+}
+
+.mainvisualtext h1 {
+	font-size: 64px;
+	color: #fafafa;
+}
+
+.mainvisualtext p {
+	font-size: 20px;
+	margin-top: 10px;
+	color: #fafafa;
+}
+
+@media screen and (max-width: 768px) {
+	.mainvisualtext h1 {
+		font-size: 40px;
+	}
+
+	.mainvisualtext p {
+		font-size: 18px;
+	}
+
+	#mainvisual {
+		background-image: url('../img/code.png');
+	}
+}

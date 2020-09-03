@@ -1,0 +1,20 @@
+.heading {
+	text-align: center;
+	font-size: 32px;
+	padding: 90px 0 0 0;
+	clear: #000000;
+}
+
+.heading::after {
+	content: '';
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #ec715f;
+}
+
+.headingtext {
+	text-align: center;
+	margin: 30px 0 30px 0;
+}

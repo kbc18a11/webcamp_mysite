@@ -1,0 +1,13 @@
+@import url('nav.css');
+header {
+	background-color: #ec715f;
+	width: 100%;
+	height: 70px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		height: 50px;
+	}
+}

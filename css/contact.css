@@ -1,0 +1,64 @@
+.contactinfo {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.mail {
+	margin: 0 auto;
+}
+
+.contact_titl {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.tel {
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.contactlink {
+	color: #212121;
+}
+
+.sns_icon {
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+.sns_icon:last-child {
+	margin-right: 0;
+}
+
+.info {
+	width: 130px;
+	margin: 0 auto;
+}
+
+.snsinfo {
+	width: 176px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+	.contactinfo {
+		width: 90%;
+		padding: 0 5% 0 5%;
+	}
+
+	.snsinfo {
+		text-align: center;
+	}
+
+	.info {
+		text-align: center;
+	}
+
+	.snsinfo {
+		margin-top: 20px;
+	}
+
+	.sns_icon {
+		margin-right: 8px;
+	}
+}

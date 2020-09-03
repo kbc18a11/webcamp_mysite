@@ -1,0 +1,50 @@
+.featureboxgroup {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.featurebox {
+	float: left;
+	height: auto;
+	width: 320px;
+	text-align: center;
+}
+
+.featurebox i {
+	font-size: 60px;
+	text-align: center;
+}
+
+.featurebox h3 {
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+
+.featurebox:nth-child(2) {
+	margin: 0 10px 0 10px;
+}
+
+.featurebox p {
+	font-size: 16px;
+	text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+	.featureboxgroup {
+		width: 90%;
+		padding: 0 5% 0 5%;
+	}
+
+	.featurebox {
+		margin-bottom: 10px;
+	}
+
+	.featurebox:nth-child(2) {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.featurebox:last-child {
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,49 @@
+@import url('header.css');
+@import url('mainvisual.css');
+@import url('portfolio.css');
+@import url('heading.css');
+@import url('feature.css');
+@import url('profile.css');
+@import url('contact.css');
+@import url('footer.css');
+
+/* リセットcss */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+section {
+	padding-bottom: 90px;
+}
+
+.leftdata {
+	float: left;
+	width: 50%;
+}
+
+.rightdata {
+	float: right;
+	width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+	.leftdata {
+		float: none;
+		width: 100%;
+	}
+
+	.rightdata {
+		float: none;
+		width: 100%;
+	}
+	.brnone {
+		display: none;
+	}
+}
