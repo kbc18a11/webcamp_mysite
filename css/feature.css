@@ -20,7 +20,7 @@
 	margin: 10px 0 10px 0;
 }
 
-.featurebox:nth-child(2) {
+.featurebox-center {
 	margin: 0 10px 0 10px;
 }
 
@@ -36,12 +36,12 @@
 	}
 
 	.featurebox {
-		margin-bottom: 10px;
+		margin: 0 auto 10px;
+		float: none;
 	}
 
-	.featurebox:nth-child(2) {
-		margin-left: 0;
-		margin-right: 0;
+	.featurebox-center {
+		margin: 0 auto 10px;
 	}
 
 	.featurebox:last-child {
